@@ -32,20 +32,20 @@ How to install the ezodf conversion daemon
 - install the ezrest eZ Publish extension
 - install the ezodf eZ Publish extension
 - install the OpenOffice extension eZconversion.zip (from the doc folder): in
-OpenOffice.org Word Processor, go to Tools->Extension Manager..., click on
-My Extensions and click Add to add the eZconversion.zip extension
+  OpenOffice.org Word Processor, go to Tools->Extension Manager..., click on
+  My Extensions and click Add to add the eZconversion.zip extension
 - follow the instructions in doc/README.daemon to start the OpenOffice
-conversion daemon (daemon.php). The path to the OpenOffice.org executable must
-be specified correctly in daemon.php
+  conversion daemon (daemon.php). The path to the OpenOffice.org executable must
+  be specified correctly in daemon.php
 
 
 How to install the Microsoft Word 2007 toolbar
 ----------------------------------------------
 
 - run toolbar/ezpublishtoolbar_install.vbs. If you don't have enough
-rights to run this script, copy manually toolbar/ezpublishtoolbar.dotm in
-the Microsoft Word 2007 STARTUP folder
-(XP: c:\Documents and Settings\<your username>\Application Data\Microsoft\Word\STARTUP,
-Vista: c:\Users\<your username>\AppData\Roaming\Microsoft\Word\STARTUP)
+  rights to run this script, copy manually toolbar/ezpublishtoolbar.dotm in
+  the Microsoft Word 2007 STARTUP folder
+  (XP: c:\Documents and Settings\<your username>\Application Data\Microsoft\Word\STARTUP,
+  Vista: c:\Users\<your username>\AppData\Roaming\Microsoft\Word\STARTUP)
 - Start Microsoft Word 2007. There should be an eZ Publish tab in the ribbon. You
-might need to enable macros in Word Options
+  might need to enable macros in Word Options
